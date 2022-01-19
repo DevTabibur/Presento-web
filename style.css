@@ -93,6 +93,7 @@ body{
 .section-bg{
     padding: 120px 0;
     position: relative;
+    color: var(--white-color);
 }
 .section-bg::before{
     content: "";
@@ -101,8 +102,9 @@ body{
     bottom: 60px;
     top: 60px;
     left: 0;right: 0;
-    transform: skewY(-3deg);
+    /* transform: skewY(-3deg); */
     z-index: -11;
+    height: auto;
 }
 .content{
     z-index: 11;
